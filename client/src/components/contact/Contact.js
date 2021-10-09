@@ -17,7 +17,7 @@ function Contact() {
 
 
             <div className="myContactLink">
-              <a target="_blank" href="mailto:silvenleaf@gmail.com?subject=Contact&body=Hi+SilvenLEAF">
+              <a className="myThemeColorText" target="_blank" href="mailto:silvenleaf@gmail.com?subject=Contact&body=Hi+SilvenLEAF">
                 SilvenLEAF@gmail.com
               </a>
             </div>
@@ -34,7 +34,7 @@ function Contact() {
 
 
             <div className="myContactLink">
-              <a target="_blank" href="https://www.linkedin.com/in/silvenleaf/">
+              <a className="myThemeColorText" target="_blank" href="https://www.linkedin.com/in/silvenleaf/">
                 LINKED IN
               </a>
             </div>
@@ -56,7 +56,7 @@ function Contact() {
 
 
             <div className="myContactLink">
-              <a target="_blank" href="https://github.com/SilvenLEAF">
+              <a className="myThemeColorText" target="_blank" href="https://github.com/SilvenLEAF">
                 GITHUB
               </a>
             </div>
@@ -73,7 +73,7 @@ function Contact() {
 
 
             <div className="myContactLink">
-              <a target="_blank" href="https://twitter.com/SilvenLEAF?s=20">
+              <a className="myThemeColorText" target="_blank" href="https://twitter.com/SilvenLEAF?s=20">
                 TWITTER
               </a>
             </div>

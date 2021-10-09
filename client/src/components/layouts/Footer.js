@@ -22,7 +22,7 @@ function Footer(props) {
 
 
         <div id="myFooterCopyright">
-          <div className="center-align">&copy; SilvenLEAF all rights reserved 2020</div>
+          <div className="center-align">&copy; SilvenLEAF all rights reserved { new Date().getFullYear() }</div>
         </div>
 
 

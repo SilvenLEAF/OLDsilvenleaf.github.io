@@ -9,14 +9,7 @@ function FrontendSkills() {
 
       <h4 className="mySkillSectionTitle">FrontEND</h4>
       <ul className="mySkillSectionSkills">
-        <li>
-          <img src="/images/skills/html5.svg" alt=""/>
-          HTML5
-        </li>
-        <li>
-          <img src="/images/skills/css3.svg" alt=""/>
-          CSS3
-        </li>
+        
         <li>
           <img src="/images/skills/javascript.svg" alt=""/>
           JavaScript
@@ -29,18 +22,26 @@ function FrontendSkills() {
           <img src="/images/skills/react.svg" alt=""/>
           React
         </li>
-        {/* <li>
+        <li>
           <img src="/images/skills/redux.svg" alt=""/>
           Redux
-        </li> */}
+        </li>
+        <li>
+          <img src="/images/skills/html5.svg" alt=""/>
+          HTML5
+        </li>
+        <li>
+          <img src="/images/skills/css3.svg" alt=""/>
+          CSS3
+        </li>
         <li>
           <img src="/images/skills/sass.svg" alt=""/>
           SASS
         </li>
-        <li>
+        {/* <li>
           <img src="/images/skills/framermotion.png" alt=""/>
           Framer Motion
-        </li>
+        </li> */}
         <li>
           <img src="/images/skills/materialize.svg" alt=""/>
           Materialize

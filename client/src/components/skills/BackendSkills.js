@@ -26,6 +26,10 @@ function BackendSkills() {
           MongoDB
         </li>
         <li>
+          <img src="/images/skills/postgresql.svg" alt=""/>
+          PostgreSQL
+        </li>
+        <li>
           <img src="/images/skills/passport.png" alt=""/>
           PassportJS
         </li>
@@ -41,10 +45,10 @@ function BackendSkills() {
           <img src="/images/skills/graphql.svg" alt=""/>
           GraphQL
         </li> */}
-        <li>
+        {/* <li>
           <img src="/images/skills/stripe.svg" alt=""/>
           Stripe
-        </li>
+        </li> */}
         {/* <li>
           <img src="/images/skills/socketio.svg" alt=""/>
           Socket.IO

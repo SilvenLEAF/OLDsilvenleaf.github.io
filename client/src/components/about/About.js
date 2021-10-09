@@ -22,7 +22,7 @@ function About() {
 
         <div className="myAboutQA">
           <div className="myAboutTitle">From</div>
-          <div className="myAboutAnswer">Kameswar, Dharmanagar, (North) Tripura, (NorthEast) India</div>
+          <div className="myAboutAnswer">(East) Kameswar, Dharmanagar, (North) Tripura, (NorthEast) India</div>
         </div>
 
 

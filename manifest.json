@@ -3,17 +3,17 @@
   "name": "SilvenLEAF Fullstack Maniac",
   "icons": [
     {
-      "src": "SilvenLEAF.png",
+      "src": "SilvenLEAF_064.jpg",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/png"
     },
     {
-      "src": "SilvenLEAF.png",
+      "src": "SilvenLEAF_192.jpg",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "SilvenLEAF.png",
+      "src": "SilvenLEAF_512.jpg",
       "type": "image/png",
       "sizes": "512x512"
     }

@@ -39,7 +39,7 @@ function About() {
 
         <div className="myAboutQA">
           <div className="myAboutTitle">Age</div>
-          <div className="myAboutAnswer">19</div>
+          <div className="myAboutAnswer">{new Date().getFullYear() - 2001}</div>
         </div>
 
 

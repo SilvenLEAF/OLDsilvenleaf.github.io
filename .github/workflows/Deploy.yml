@@ -29,10 +29,14 @@ jobs:
         run: |
           echo started testing
           cd client && npm install
-          npm run deploy
       
       # Runs a set of commands using the runners shell
+      - name: Build
+        run: |
+          echo started Building
+          cd client && npm run build
+      
       - name: Deploy
         run: |
           echo started Deploying
-          cd client && npm run deploy
+          cd client && gh-pages -d build

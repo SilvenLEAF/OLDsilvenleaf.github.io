@@ -20,15 +20,9 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo "${{ github.event.inputs.name }}!! Let's test if it is working!"
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo started testing
-          cd client && npm install
+      #  Runs a single command using the runners shell
+      - name: Install packages
+        run: cd client && npm install
       
       # Runs a set of commands using the runners shell
       - name: Build
@@ -36,7 +30,8 @@ jobs:
           echo started Building
           cd client && CI=false && npm run build
       
-      - name: Deploy
-        run: |
-          echo started Deploying
-          cd client && gh-pages -d build
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.5
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: client/build # The folder the action should deploy.

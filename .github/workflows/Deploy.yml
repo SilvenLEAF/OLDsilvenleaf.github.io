@@ -34,7 +34,7 @@ jobs:
       - name: Build
         run: |
           echo started Building
-          cd client && npm run build
+          cd client && CI=false && npm run build
       
       - name: Deploy
         run: |
